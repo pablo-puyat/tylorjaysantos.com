@@ -1,0 +1,88 @@
+body {
+    background-color: #000;
+    color: #e6e6e6;
+}
+
+a {
+    color: #e6e6e6;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#main-nav {
+    position: fixed;
+    top: 30px;
+    right: 0px;
+    z-index: 99;
+    background-color: #000;
+}
+
+#main-nav {
+    margin: 0 15px;
+}
+
+#music {
+    margin-top: 50rem;
+    height: 60rem;
+}
+
+#about {
+    height: 50rem;
+    padding-right: 10rem;
+    padding-top: 7rem;
+}
+
+#contact {
+    height: 50rem;
+    padding-right: 10rem;
+    padding-top: 7rem;
+}
+
+#video-embed {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#bandcamp {
+    border: 0;
+    width: 350px;
+    height: 720px;
+}
+
+@media screen and (max-width: 39.9375em) {
+    #bandcamp {
+        width: 300px;
+    }
+    #main-nav {
+        display: none;
+    }
+
+    #video {
+        height: initial;
+    }
+
+    #music {
+        margin-top: 550px;
+        height: initial;
+    }
+
+    #about, #contact {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: initial;
+        padding-bottom: 50px;
+    }
+    .row {
+        margin-bottom: 15px;
+    }
+    body {
+        overflow-y: hidden;
+    }
+}
