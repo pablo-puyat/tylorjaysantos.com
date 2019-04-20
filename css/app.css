@@ -54,7 +54,9 @@ a:hover {
     width: 350px;
     height: 720px;
 }
-
+.track .row {
+    margin-bottom: 30px;
+}
 @media screen and (max-width: 39.9375em) {
     #bandcamp {
         width: 300px;
