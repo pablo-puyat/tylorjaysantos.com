@@ -23,32 +23,24 @@ a:hover {
 #main-nav {
     margin: 0 15px;
 }
-
 #music {
-    margin-top: 50rem;
     height: 60rem;
 }
 
 #about {
     height: 50rem;
-    padding-right: 10rem;
-    padding-top: 7rem;
+    padding: 4rem 10rem;
 }
 
 #contact {
     height: 50rem;
-    padding-right: 10rem;
-    padding-top: 7rem;
+    padding: 4rem 10rem;
 }
-
 #video-embed {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
 }
-
 #bandcamp {
     border: 0;
     width: 350px;
@@ -56,6 +48,22 @@ a:hover {
 }
 .track .row {
     margin-bottom: 30px;
+}
+body.track {
+    height: 100%;
+}
+.green-flowers {
+    background-image: url('/img/IMG_0390.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.track-player {
+    width: 75vw;
+    height: 40vh;
+    margin: 75% auto;
+    font-weight: bold;
 }
 @media screen and (max-width: 39.9375em) {
     #bandcamp {
@@ -70,7 +78,7 @@ a:hover {
     }
 
     #music {
-        margin-top: 550px;
+        margin-top: 50px;
         height: initial;
     }
 
